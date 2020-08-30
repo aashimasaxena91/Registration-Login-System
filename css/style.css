@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 120%;
+  background-image: url("https://images.all-free-download.com/images/graphicthumb/green_bokeh_background_vector_illustration_570093.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.header {
+  width: 40%;
+  font-size: 2.3rem;
+  margin: 3.125rem auto 0px;
+  color: #62760c;
+  padding: 1.875rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+form {
+  text-align: center;
+  width: 27%;
+  margin: 0px auto;
+  padding: 1.25rem;
+  font-family: cursive;
+  color: #62760c;
+}
+.input-group {
+  margin: 0.9375rem 0px ;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 0.3125rem;
+}
+.input-group input {
+  height: 1.875rem;
+  width: 93%;
+  padding: 0.3125rem 0.625rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #62760c;
+  background: none;
+  color: #62760c;
+}
+
+.btn {
+  padding: 0.625rem;
+  font-size: 0.9375rem;
+  color: white;
+  background: #81b214;
+  border: none;
+  border-radius: 0.3125rem;
+  font-family: 'Merienda', cursive;
+}
+.btn:hover {
+  background: #62760c;
+}
+.error {
+    width: 93%;
+    margin: 0;
+    padding: 0.625rem;
+    border: 0.25rem solid #62760c;
+    color: #62760c;
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+a{
+  text-decoration: none;
+  font-family: 'Berkshire Swash', cursive;
+  color: #62760c;
+}
+a:hover {
+  color: #81b214;
+}
